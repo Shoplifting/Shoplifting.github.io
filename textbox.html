@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<style>
+input[type=text] {
+	width: 100%;
+	height: 16px;
+	padding: 12px 20px;
+	margin: 2px 0;
+	display: inline-block;
+	border: 1px solid gray;
+    	border-radius: 4px;
+    	box-sizing: border-box;
+	font-family:verdana;
+	font-size:16px;
+}
+#contact {
+	font-family:verdana;
+	font-size:16px;
+	background:black;
+	line-height:2em;
+	color:white;
+}
+
+#contact .content {
+	width:50%;
+	float:left;
+}
+
+#contact .title {
+	font-family:verdana;
+	font-size:16px;
+	margin:0 5px;
+}
+
+#contact .content .halflinebox {
+	width:calc(50% - 20px);
+	float:left;
+	padding:0 5px;
+}
+
+#contact .content .wholelinebox {
+	width:calc(100% - 30px);
+	float:left;
+	padding:0 5px;
+}
+
+</style>
+
+<html>
+	<body id="contact">
+	 <div class="content">
+	  <div class="title">
+	   <p>name:</p>
+	  </div>
+	  <div class="halflinebox">
+	   <input type="text" placeholder="first">
+	  </div>
+	  <div class="halflinebox">
+	   <input type="text" placeholder="last">
+	  </div>
+	  <div class="title">
+	   <p>email:</p>
+	  </div>
+	  <div class="wholelinebox">
+	   <input type="text">
+	  </div>
+	  <div class="title">
+	   <p>message:</p>
+	  </div>
+	  <div class="wholelinebox">
+	   <input type="text" style="height:100px">
+	  </div>
+	 </div>
+	</body>
+</html>
