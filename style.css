@@ -1,8 +1,9 @@
 
 
 body {
-  margin:0;
-  font-family: 'Oswald', sans-serif;
+	max-width:1280px;
+	margin:0;
+	font-family: 'Oswald', sans-serif;
 }
 
 textarea {
@@ -112,6 +113,57 @@ input[type=submit]:hover {
 	font-size:40px;
 	text-align:center;
 }
+
+/* TEAM *****************************/
+#team {
+
+}
+
+#team .content {
+	float:center;
+	width:70%;
+	margin:0 15%;
+	overflow:auto;
+
+}
+
+#team .content2 {
+	float:center;
+	width:50%;
+	margin:0 25%;
+	overflow:auto;
+}
+#team .content .member .firstrow {
+	float:left;
+	width:calc(33.3333% - 40px);
+	padding:0 20px;
+}
+
+#team h1 {
+	text-align:center;
+	font-weight:300;
+	font-size:20px;
+}
+
+#team p {
+	text-align:center;
+	font-weight:200;
+	font-size:20px;
+	line-height:0;
+}
+
+#team img {
+	border:1px solid black;
+	width:80%;
+	height:200px;
+	margin:20px 5% 0 5%;
+}
+
+#team .content2 .member {
+	float:left;
+	width:calc(50% - 40px);
+	padding:0 20px;
+} 
 
 /* CONTACT *****************************/
 #contact {
