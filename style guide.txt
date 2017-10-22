@@ -3,12 +3,12 @@ Style Guidelines for ShopLyft Website
 
 Colours
 =======
--#432F75 (toolbar background)
--#ECECEC (toolbar text)
--#AAA239
--#646359
--#CCCCCC (contact background)
--#646359 (contact text)
+-#926092 (toolbar background)
+-#E2CFFB (toolbar text)
+-#B8A0D8 (features background)
+-#17111F (features text)
+-#70709E(contact background)
+-#131320 (contact text)
 -#403E45 (submit)
 -#463D5D (submit hover)
 
