@@ -1,0 +1,22 @@
+Style Guidelines for ShopLyft Website
+=====================================
+
+Colours
+=======
+-FFAAAA
+-D46A6A
+-801515
+-F90000
+-AA3939
+-white
+
+Typography
+==========
+We will be using Oswald from Google Fonts.
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+font-family: 'Oswald', sans-serif;
+
+Buttons
+=======
+Buttons will be flat designed using the chosen colors outlined above.
+

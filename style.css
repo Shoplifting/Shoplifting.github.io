@@ -1,0 +1,104 @@
+/*
+
+Colors
+#D46A6A (hover color)
+#801515
+#F90000
+#AA3939
+white
+*/
+
+body {
+  margin:0;
+  font-family: 'Oswald', sans-serif;
+}
+
+textarea {
+	width: 100%;
+    	height: 150px;
+    	padding: 12px 20px;
+    	box-sizing: border-box;
+	border: 1px solid #AA3939;
+    	border-radius: 4px;
+	resize: none;
+}
+
+#features {
+	background:#F90000;
+	font-weight:200;
+	font-size:18px;
+	color:white;
+	line-height:2em;
+	text-align:justify;
+}
+
+#features .content {
+	float:left;
+	width:calc(33.33333% - 40px);
+  	text-align:justify;
+	padding:20px;
+	
+}
+
+#features .content .pic img{
+	width:100%;
+	border-radius:4px;
+	height:300px;
+}
+
+#features .content .title h1{
+	font-weight:300;
+	font-size:40px;
+	text-align:center;
+}
+
+input[type=text] {
+	width:100%;
+	height:16px;
+	padding:14px;
+	margin:0;
+	display: inline-block;
+	border: 1px solid #AA3939;
+    	border-radius: 4px;
+    	box-sizing: border-box;
+	resize: none;
+}
+
+input[type=submit] {
+	background-color: #AA3939;
+    	border: none;
+    	color: white;
+    	padding: 16px 50px;
+	border-radius: 4px;
+   	margin: 4px 2px;
+   	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #D46A6A;
+}
+#contact {
+
+}
+
+#contact .content {
+	width:50%;
+	float:left;
+}
+
+#contact .title {
+	margin:10px;
+	line-height:50%;
+}
+
+#contact .content .halflinebox {
+	width:calc(50% - 20px);
+	float:left;
+	padding:0 5px;
+}
+
+#contact .content .wholelinebox {
+	width:calc(100% - 30px);
+	float:left;
+	padding:0 5px;
+}
