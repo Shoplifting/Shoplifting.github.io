@@ -5,7 +5,6 @@ Colors
 #801515
 #F90000
 #AA3939
-white
 */
 
 body {
@@ -23,13 +22,46 @@ textarea {
 	resize: none;
 }
 
+#toolbar {
+	background:#801515;
+	color:white;
+	position:fixed;
+	width:100%;
+}
+
+#toolbar .logo {
+	float:left;
+	width:20%;
+	height:25px;
+}
+
+#toolbar .navigation {
+	float:left;
+	width:75%;
+}
+
+#toolbar .navigation a {
+	padding:25px 50px;
+	float:right;
+	display:block;
+	background:#801515;
+	text-decoration:none;
+	text-align:center;
+	color:white;
+}
+
+#toolbar .navigation a:hover {
+	background:#D46A6A;
+}
+
 #features {
-	background:#F90000;
+	background:#AA3939;
 	font-weight:200;
 	font-size:18px;
 	color:white;
 	line-height:2em;
 	text-align:justify;
+	overflow:auto;
 }
 
 #features .content {
@@ -40,13 +72,13 @@ textarea {
 	
 }
 
-#features .content .pic img{
+#features .content .pic img {
 	width:100%;
 	border-radius:4px;
 	height:300px;
 }
 
-#features .content .title h1{
+#features .content .title h1 {
 	font-weight:300;
 	font-size:40px;
 	text-align:center;
@@ -78,7 +110,8 @@ input[type=submit]:hover {
 	background-color: #D46A6A;
 }
 #contact {
-
+	background:#801515;
+	overflow:auto;
 }
 
 #contact .content {
