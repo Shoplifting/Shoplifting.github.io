@@ -51,6 +51,8 @@ input[type=submit]:hover {
 	background:#432F75;
 	color:#403E45;
 	position:fixed;
+    top: 0;
+    left: 0;
 	width:100%;
 	height:80px;
 	font-size:18px;
@@ -79,6 +81,16 @@ input[type=submit]:hover {
 
 #toolbar .navigation a:hover {
 	color:#FFFFFF;
+}
+
+/* TITLE *****************************/
+#title{
+    padding-top:80px;
+}
+
+#title h1{
+    text-align: center;
+    font-size:48px;
 }
 
 /* FEATURES *****************************/
