@@ -17,14 +17,42 @@ textarea {
     	height: 150px;
     	padding: 12px 20px;
     	box-sizing: border-box;
-	border: 1px solid #AA3939;
+	border: 1px solid #B5B6B5;
     	border-radius: 4px;
-	resize: none;
+	color:#646359;
 }
 
+input[type=text] {
+	width:100%;
+	height:16px;
+	padding:14px;
+	margin:0;
+	display: inline-block;
+	border: 1px solid #B5B6B5;
+    	border-radius: 4px;
+    	box-sizing: border-box;
+	color:#646359;
+}
+
+input[type=submit] {
+	background-color: #403E45;
+	font-family: 'Oswald', sans-serif;
+    	border: none;
+    	color: #FFFFFF;
+    	padding: 16px 50px;
+	border-radius: 4px;
+   	margin: 4px 2px;
+   	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #463D5D;
+}
+
+/* HEADER *****************************/
 #toolbar {
-	background:#801515;
-	color:white;
+	background:#432F75;
+	color:#403E45;
 	position:fixed;
 	width:100%;
 }
@@ -44,21 +72,22 @@ textarea {
 	padding:25px 50px;
 	float:right;
 	display:block;
-	background:#801515;
+	background:#432F75;
 	text-decoration:none;
 	text-align:center;
-	color:white;
+	color:#ECECEC;
 }
 
 #toolbar .navigation a:hover {
-	background:#D46A6A;
+	background:#878353;
 }
 
+/* FEATURES *****************************/
 #features {
-	background:#AA3939;
+	background:#AAA239;
 	font-weight:200;
 	font-size:18px;
-	color:white;
+	color:#646359;
 	line-height:2em;
 	text-align:justify;
 	overflow:auto;
@@ -84,33 +113,10 @@ textarea {
 	text-align:center;
 }
 
-input[type=text] {
-	width:100%;
-	height:16px;
-	padding:14px;
-	margin:0;
-	display: inline-block;
-	border: 1px solid #AA3939;
-    	border-radius: 4px;
-    	box-sizing: border-box;
-	resize: none;
-}
-
-input[type=submit] {
-	background-color: #AA3939;
-    	border: none;
-    	color: white;
-    	padding: 16px 50px;
-	border-radius: 4px;
-   	margin: 4px 2px;
-   	cursor: pointer;
-}
-
-input[type=submit]:hover {
-	background-color: #D46A6A;
-}
+/* CONTACT *****************************/
 #contact {
-	background:#801515;
+	background:#CCCCCC;
+	color:#646359;
 	overflow:auto;
 }
 
