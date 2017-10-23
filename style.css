@@ -1,7 +1,5 @@
-
-
+/* GENERAL *****************************/
 body {
-	max-width:1280px;
 	margin:0;
 	font-family: 'Oswald', sans-serif;
 }
@@ -276,7 +274,6 @@ input[type=submit]:hover {
 }
 
 /* FOOTER *****************************/
-
 #footer {
     	width: 100%;
     	background:#414164;
