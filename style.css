@@ -264,4 +264,96 @@ input[type=submit]:hover {
 	line-height:2em;
 	padding:0 5px;
 }
+/* HOW IT WORKS ****************************/
+#working {
+	background:WHITE;
+	font-weight:200;
+	font-size:18px;
+	color:#17111F;
+	line-height:2em;
+	text-align:justify;
+	overflow:auto;
+}
 
+#working .contentWork{
+	#working .content {
+	float:left;
+	width:calc(33.33333% - 40px);
+  	text-align:justify;
+	padding:0 20px;
+}
+}
+#working h1 {
+	font-weight:300;
+	font-size:80px;
+	text-align:center;
+}
+
+#working .contentWork .titleWork h2 {
+	font-weight:300;
+	font-size:40px;
+	text-align:center;
+	vertical-align:middle;
+}
+/*customer************************/
+#working .contentWork .customerContent .deliveryContent{
+	width:350px;
+	padding:30px;
+	margin-right:0px;
+	float:left;
+	padding-right:90px;
+}
+#working .contentWork .customerContent .delivery{
+	width:60%;
+	height:auto;
+	display:block;
+	margin-left:65px;
+}
+#working .contentWork .customerContent .location {
+    width: 30%;
+    height: auto;
+    display: block;
+    padding-top: 30px;
+    padding-left: 40px;
+    margin-right:0px;
+}
+#working .contentWork .customerContent .locationContent{
+	margin-right:0px;
+	width:900px;
+}
+#working .contentWork .customerContent .locationContent .locationheader{
+	position:relative;
+	left:-40px;
+}
+#working .contentWork .customerContent .groceriesPic{
+	width:300px;
+	height:auto;
+	float:right;
+	position:relative;
+	top:-340px;
+	left:-20px;
+}
+/*DRIVER***************************/
+
+#working .contentWork .titleWork .driverTitle {
+	font-weight:300;
+	font-size:40px;
+	text-align:center;
+	vertical-align:middle;
+	text-indent:290px;
+}
+#working .contentWork .customerContent .car {
+    width: 30%;
+    height: auto;
+    display: block;
+    padding-left:30px;
+    margin-right:0px;
+}
+#working .contentWork .customerContent .logoPic{
+	width:300px;
+	height:auto;
+	float:right;
+	position:relative;
+	top:-450px;
+	left:380px;
+}
