@@ -50,7 +50,8 @@ input[type=submit]:hover {
 /* TITLE *****************************/
 #title {
 	width:100%;
-	margin:150px 0 250px 0;
+	padding:150px 0 250px 0;
+	background-image:url("http://www.whosdrivingyou.org/wp-content/uploads/2015/06/Image-driver2.jpg");
 }
 
 #title h1 {
@@ -111,6 +112,11 @@ input[type=submit]:hover {
 	color:#FFFFFF;
 }
 
+#toolbar img {
+	width:80px;
+	height:80px;
+}
+
 /* FEATURES *****************************/
 #features {
 	background:#B8A0D8;
@@ -132,7 +138,6 @@ input[type=submit]:hover {
 
 #features .content .pic img {
 	width:80%;
-	border-radius:4px;
 	height:300px;
 	padding: 20px 10% 0 10%;
 }
