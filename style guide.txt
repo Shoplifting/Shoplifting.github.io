@@ -8,17 +8,43 @@ Colours
 -#B8A0D8 (features background)
 -#17111F (features text)
 -#70709E(contact background)
--#131320 (contact text)
+-#B5B6B5 (contact input border)
+-#ECECEC (input box focus)
+-#131320 (contact & goals text)
 -#403E45 (submit)
 -#463D5D (submit hover)
 
 Typography
 ==========
 We will be using Oswald from Google Fonts.
-<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
 font-family: 'Oswald', sans-serif;
 
 Buttons
 =======
-Buttons will be flat designed using the chosen colors outlined above.
+Buttons will be flat designed using the chosen colors(dark ones) outlined above and will have
+rounded edges. In addition the text in the buttons will be white and the background
+color of the button will change when hovered on and return to initial color when clicked.
+
+Navigation Bar
+==============
+Text color starts as a similar color to background but lighter. When hovered over the 
+text turns white.
+
+Text
+====
+Since background color varies throughout the page the text colors change accordingly.
+All text is double spaced.
+
+Page Sections
+=============
+Different page sections will change color to show divison. Inbetween the contents on 
+the two pages there is space and there will be a title of larger size than the normal
+text above every section.
+
+Input Boxes
+===========
+the input boxes are rounded with a border according to our colors. In addition when selected
+the input box changes color to a light gray from the usual white background.
+
 
