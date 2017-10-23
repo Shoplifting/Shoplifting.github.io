@@ -275,3 +275,19 @@ input[type=submit]:hover {
 	padding:0 5px;
 }
 
+/* FOOTER *****************************/
+
+#footer {
+    	width: 100%;
+    	background:#414164;
+	overflow:auto;
+}
+
+#footer h1 {
+	font-size:25px;
+	text-align:right;
+	text-decoration:none;
+	color:#131320;
+	font-weight:300;
+	margin:30px 20px 30px 0;
+}

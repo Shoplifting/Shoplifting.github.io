@@ -17,7 +17,7 @@ Colours
 Typography
 ==========
 We will be using Oswald from Google Fonts.
-<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
 font-family: 'Oswald', sans-serif;
 
 Buttons
