@@ -342,8 +342,6 @@ input[type=submit]:hover {
 	left:-20px;
 }
 /*DRIVER***************************/
-
-<<<<<<< HEAD
 #working .contentWork .titleWork .driverTitle {
 	font-weight:300;
 	font-size:40px;
@@ -366,7 +364,6 @@ input[type=submit]:hover {
 	top:-450px;
 	left:380px;
 }
-=======
 /* FOOTER *****************************/
 #footer {
     	width: 100%;
@@ -382,4 +379,3 @@ input[type=submit]:hover {
 	font-weight:300;
 	margin:30px 20px 30px 0;
 }
->>>>>>> ea93fca1d7992a6c3755449b7923535fa37f8711
