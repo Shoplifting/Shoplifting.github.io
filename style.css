@@ -119,6 +119,51 @@ input[type=submit]:hover {
 	width:80px;
 	height:80px;
 }
+/* HOW IT WORKS *****************************/
+#howitworks {
+	overflow:auto;
+	font-size:18px;
+	line-height:2em;
+	font-weight:200;
+	text-align:justify;
+}
+
+#howitworks .contentleft {
+	float:left;
+	width:calc(35% - 10px);
+	padding:0 0 0 15%;
+}
+
+#howitworks .contentright {
+	float:left;
+	width:calc(35% - 10px);
+	padding:0 15% 0 20px;
+}
+
+#howitworks img {
+	width: 60%;
+	height: auto;
+	display:block;
+	margin:auto;
+}
+
+#howitworks h1 {
+	font-weight:300;
+	font-size:80px;
+	text-align:center;
+}
+
+#howitworks h2 {
+	font-weight:300;
+	font-size:40px;
+	text-align:center;
+}
+
+#howitworks h3 {
+	font-weight:300;
+	font-size:30px;
+	text-align:center;
+}
 
 /* FEATURES *****************************/
 #features {
@@ -274,74 +319,21 @@ input[type=submit]:hover {
 }
 /* HOW IT WORKS ****************************/
 #working {
-	background:WHITE;
+	background:#FFFFFF;
 	font-weight:200;
 	font-size:18px;
 	color:#17111F;
 	line-height:2em;
 	text-align:justify;
 	overflow:auto;
-	max-width:1280px;
+	width:100%;
 }
 
-#working .contentWork{
-	#working .content {
-	float:left;
-	width:calc(33.33333% - 40px);
-  	text-align:justify;
+#working .content {
+	width:calc(50% - 40px);
 	padding:0 20px;
 }
-}
-#working h1 {
-	font-weight:300;
-	font-size:80px;
-	text-align:center;
-}
 
-#working .contentWork .titleWork h2 {
-	font-weight:300;
-	font-size:40px;
-	text-align:center;
-	vertical-align:middle;
-}
-/*customer************************/
-#working .contentWork .customerContent .deliveryContent{
-	width:350px;
-	padding:30px;
-	margin-right:0px;
-	float:left;
-	padding-right:90px;
-}
-#working .contentWork .customerContent .delivery{
-	width:60%;
-	height:auto;
-	display:block;
-	margin-left:65px;
-}
-#working .contentWork .customerContent .location {
-    width: 30%;
-    height: auto;
-    display: block;
-    padding-top: 30px;
-    padding-left: 40px;
-    margin-right:0px;
-}
-#working .contentWork .customerContent .locationContent{
-	margin-right:0px;
-	width:900px;
-}
-#working .contentWork .customerContent .locationContent .locationheader{
-	position:relative;
-	left:-40px;
-}
-#working .contentWork .customerContent .groceriesPic{
-	width:300px;
-	height:auto;
-	float:right;
-	position:relative;
-	top:-340px;
-	left:-20px;
-}
 /*DRIVER***************************/
 #working .contentWork .titleWork .driverTitle {
 	font-weight:300;
