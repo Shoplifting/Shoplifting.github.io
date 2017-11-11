@@ -2,6 +2,8 @@
 <head>
 	<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 </head>
 
 <html>
@@ -38,7 +40,7 @@
 		<div class="contentleft">
 			<img src="delivery.png">
 			<h3>Fastest way to do groceries</h3>
-			<p>Instead of walking the isles, spend more time with your family.</p>
+			<p>Instead of walking the aisles, spend more time with your family, studying or relaxing.</p>
 		</div>
 
 		<div class="contentright">
@@ -51,7 +53,7 @@
 		<div class="contentleft">
 			<img src="moneybag.png" style="width:calc(47% + 1.5px); height:45%;">
 			<h3>Do groceries, make money!</h3>
-			<p>With us, you can get paid shopping with other's money.</p>
+			<p>With us, you can get paid shopping with other people's money.</p>
 		</div>
 
 		<div class="contentright">
@@ -212,7 +214,9 @@
 			<div class="wholelinebox">
 				<form id="userinfo">
 					<textarea></textarea>
-					<input type="submit">
+					<div id = "submitDiv">
+						<input id = "submitButton" onclick = "messageRecieved" type="submit">
+					</div>
 				</form><br>
 			</div>
 		</div>
