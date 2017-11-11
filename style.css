@@ -248,10 +248,9 @@ input[type=submit]:hover {
 }
 
 #team img {
-	border:1px solid black;
-	width:80%;
-	height:200px;
-	margin:20px 5% 0 5%;
+	width:100%;
+	height:100%;
+	float:left;
 }
 
 #team .content2 .member {
