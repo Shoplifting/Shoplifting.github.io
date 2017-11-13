@@ -2,6 +2,8 @@
 <head>
 	<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 </head>
 
 <html>
@@ -212,7 +214,9 @@
 			<div class="wholelinebox">
 				<form id="userinfo">
 					<textarea></textarea>
-					<input type="submit">
+						<div id = "submitDiv">
+							<input id = "submitButton" onclick = "return messageRecieved()" type ="submit" >
+						</div>
 				</form><br>
 			</div>
 		</div>
