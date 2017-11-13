@@ -132,12 +132,14 @@ input[type=submit]:hover {
 	float:left;
 	width:calc(35% - 10px);
 	padding:0 0 0 15%;
+	text-align:center;
 }
 
 #howitworks .contentright {
 	float:left;
 	width:calc(35% - 10px);
 	padding:0 15% 0 20px;
+	text-align:center;
 }
 
 #howitworks img {
